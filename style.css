@@ -1,0 +1,36 @@
+header{
+    height: 50px;
+    background: #ddd;
+}
+
+footer{
+    height: 50px;
+    background: #ddd;
+}
+.content{
+    display: flex;
+}
+
+.content >aside{
+    width: 120px;
+    background: #444;
+    order: 1;
+}
+
+.content >main{
+    box-sizing: border-box;
+    height: 800px;
+    flex: 1;
+    background: red;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 350px 0; 
+    order: 2;
+}
+
+.content >nav{
+    width: 100px;
+    background: blue;
+    order: 3;
+}
